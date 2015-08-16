@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>TV Homepage</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.search {
+			height: 200px;
+			line-height: 200px;
+			background: linear-gradient(
+				to right,
+				#4CCC55,
+				#5FFF6B 33%,
+				#ABFFB2 66%
+				);
+		}
+		
+		.vcenter {
+			vertical-align: middle;
+		}
+
+		#first-row {
+			margin-top: 30px;
+		}
+		
+		#second-row {
+			margin-top: 28px;
+		}
+		#googlesearch {
+			width: 85%;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container-fluid search">
+		<div class="row vcenter">
+			<div class="col-md-6 col-md-offset-3">
+				<form class="form-inline" method="get" action="https://www.google.com.au/search">
+					<input type="text" class="form-control" id="googlesearch" placeholder="Search Google" name="q">
+					<button class="btn btn-success">Search</button>
+				</form>
+			</div>
+		</div>
+		<div class="row" id="first-row">
+			<div class="col-md-2 col-md-offset-2">
+				<a href="http://iview.abc.net.au/"><img src="resources/iview.png" class="img-responsive"></a>
+			</div>
+			<div class="col-md-2">
+				<a href="http://www.sbs.com.au/ondemand/"><img src="resources/sbs.png" class="img-responsive"></a>
+			</div>
+			<div class="col-md-2">
+				<a href="http://www.abc.net.au/abcforkids/video/"><img src="resources/abck.gif" class="img-responsive"></a>
+			</div>
+			<div class="col-md-2">
+				<a href="https://au.tv.yahoo.com/plus7/"><img src="resources/plus7.jpg" class="img-responsive"></a>
+			</div>	
+		</div>
+		<div class="row" id="second-row">
+			<div class="col-md-2 col-md-offset-2">
+				<a href="http://www.9jumpin.com.au/"><img src="resources/9jumpin.jpeg" class="img-responsive"></a>
+			</div>
+			<div class="col-md-2">
+				<a href="http://tenplay.com.au/"><img src="resources/tenplay.png" class="img-responsive"></a>
+			</div>
+			<div class="col-md-2">
+				<a href="http://www.netflix.com/browse"><img src="resources/netflix.png" class="img-responsive"></a>
+			</div>
+			<div class="col-md-2">
+				<a href="https://www.presto.com.au/"><img src="resources/presto.png" class="img-responsive"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
